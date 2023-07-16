@@ -1,3 +1,4 @@
+/* work sens font form google */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:ital,wght@0,400;1,700;1,800&family=Work+Sans:ital,wght@0,400;0,600;0,900;1,800&display=swap");
 
 *{
@@ -6,6 +7,46 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
 
+
+
+
+
+/* header section style */
 header {
   background-color: rgba(255, 144, 14, 0.1);
+  padding: 50px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.primary-heading-font{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #131313;
+}
+
+/* banner title style */
+.banner-content{
+max-width: 800px;
+text-align: center;
+margin: 0 auto;
+}
+.img{
+    width: 80%;
+  margin: 50px 200px 50px 100px;
 }
