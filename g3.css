@@ -144,8 +144,17 @@ font-weight: 400;
     display: flex;
     justify-content: space-around;
 }
+/* sponsors section */
 
-
+.sponsors{
+    text-align: center;
+}
+.sponsors-img-contenter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+}
 
 
 
@@ -205,6 +214,14 @@ font-weight: 400;
     flex-direction: column;
     gap: 10px;
   }
+  .sponsors-img-contenter{
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  .sponsors-img-contenter img{
+    width: 165px;
+  }
 }
 
 /* Medium devices (576px to 992px) */
@@ -218,5 +235,9 @@ font-weight: 400;
   .teams-container{
     flex-direction: column;
   }
+  .sponsors-img-contenter{
+    flex-direction: column;
+    gap: 20px;
+    
 
 }
