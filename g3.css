@@ -201,6 +201,10 @@ font-weight: 400;
     padding-right: 20px;
 
   }
+  .facts-card-container{
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 /* Medium devices (576px to 992px) */
