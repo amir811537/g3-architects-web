@@ -88,6 +88,7 @@ margin: 0 auto;
 .teams-container{
     display: flex;
     align-items: center;
+    margin: 70px auto;
 }
 .teams-img{
     display: grid;
@@ -137,6 +138,17 @@ font-weight: 400;
   .img {
     margin: 20px auto;
   }
+  .teams-container{
+    flex-direction: column;
+  }
+  .teams-img{
+    grid-template-columns: 1fr;
+  }
+  .teams-content{
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
 }
 
 /* Medium devices (576px to 992px) */
@@ -144,4 +156,11 @@ font-weight: 400;
   header {
     padding: 40px;
   }
+  nav{
+    flex-direction: column;
+  }
+  .teams-container{
+    flex-direction: column;
+  }
+
 }
