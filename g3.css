@@ -1,52 +1,104 @@
-/* work sens font form google */
+/* work sens font from Google */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:ital,wght@0,400;1,700;1,800&family=Work+Sans:ital,wght@0,400;0,600;0,900;1,800&display=swap");
 
-*{
-    font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+/* Shared Styles */
+* {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary {
+  border-radius: 8px;
+  font-size: 1.2rem;
+  background-color: #FF900E;
+  color: #fff;
+  padding: 20px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+}
 
-
-
-
-/* header section style */
+/* Header Section Styles */
 header {
   background-color: rgba(255, 144, 14, 0.1);
-  padding: 50px 150px;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    
-    align-items: center;
-}
-nav ul{
-    display: flex;
-}
-nav li{
-    list-style: none;
-    margin-right: 30px;
-    font-size: 1rem;
-}
-nav li a{
-    text-decoration: none;
-    color: #424242;
-}
-.primary-heading-font{
-    font-size: 3rem;
-    font-weight: 600;
-    color: #131313;
+  padding: 30px;
 }
 
-/* banner title style */
-.banner-content{
-max-width: 800px;
-text-align: center;
-margin: 0 auto;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.img{
-    width: 80%;
-  margin: 50px 200px 50px 100px;
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 1rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.primary-heading-font {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #131313;
+}
+
+/* Banner Section Styles */
+.banner-content {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.banner-title {
+  font-size: 4rem;
+  color: #131313;
+  font-weight: 600;
+}
+
+.banner-dis {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Small devices (up to 576px) */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .banner-content {
+    flex-direction: column;
+  }
+
+  .img {
+    margin: 20px auto;
+  }
+}
+
+/* Medium devices (576px to 992px) */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  header {
+    padding: 40px;
+  }
 }
