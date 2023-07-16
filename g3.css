@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:ital,wght@0,400;1,700;1,800&family=Work+Sans:ital,wght@0,400;0,600;0,900;1,800&display=swap");
+
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
